@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read the CSV file
-data = pd.read_csv('C:/Users/singh/Downloads/journey_data_revised.csv')
+data = pd.read_csv('C:/Users/singh/OneDrive/Documents/Richa/Data/journey_data_revised.csv')
 
 # Convert the 'jrdt_local_start_date' column to datetime format with the appropriate format specifier
 data['jrdt_local_start_date'] = pd.to_datetime(data['jrdt_local_start_date'], format='%d/%m/%Y')
